@@ -13,10 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.project.ems.dto.EmployeeDto;
 import com.project.ems.services.EmployeeService;
-import lombok.AllArgsConstructor;
 
 @CrossOrigin("*")
-@AllArgsConstructor
 @RestController
 @RequestMapping("/api/employees")
 public class EmployeeController {
